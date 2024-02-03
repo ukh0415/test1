@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Merienda:wght@700&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+.App {
+  font-family: 'Protest Strike', sans-serif;
+}
+
+div,
+h1,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-image: url("http://localhost:3000/images/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.row {
+  margin: 10px 0px;
+}
+
+.col,
+.col-5 {
+  margin: 6px;
+  border-radius: 15px;
+}
+
+.header {
+  width: 750px;
+  margin-bottom: 10px;
+}
+
+.header .col {
+  background-color: rgb(19, 19, 97);
+  color: white;
+  text-align: right;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.header h1:hover {
+  color: rgba(255, 255, 255, 0.743);
+  transition-duration: 0.5s;
+}
+
+.pitch {
+  background-image: url("http://localhost:3000/images/pitch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  box-shadow: 8px 8px 8px 0px;
+  font-family: 'Francois One', sans-serif;
+  font-weight: 900;
+}
+
+.pitch .squad {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.profile {
+  display: inline-block;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid black;
+  border-radius: 100%;
+  background-color: white;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.profile:hover {
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.fw .profile {
+  border-color: red;
+}
+
+.fw .st:hover {
+  background-image: url("http://localhost:3000/images/히샬리송.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .profile {
+  border-color: green;
+}
+
+.mf .lm:hover {
+  background-image: url("http://localhost:3000/images/손흥민.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .cam:hover {
+  background-image: url("http://localhost:3000/images/매디슨.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .rm:hover {
+  background-image: url("http://localhost:3000/images/쿨루셉스키.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .left:hover {
+  background-image: url("http://localhost:3000/images/비수마.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .right:hover {
+  background-image: url("http://localhost:3000/images/벤탕쿠르.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.df .profile {
+  border-color: blue;
+}
+
+.df .lb:hover {
+  background-image: url("http://localhost:3000/images/우도기.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.df .left:hover {
+  background-image: url("http://localhost:3000/images/반더벤.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.df .right:hover {
+  background-image: url("http://localhost:3000/images/로메로.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.df .rb:hover {
+  background-image: url("http://localhost:3000/images/포로.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.gk .profile {
+  border-color: rgb(255, 204, 0);
+}
+
+.gk .profile:hover {
+  background-image: url("http://localhost:3000/images/비카리오.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.2s;
+}
+
+.mf .lm {
+  margin-right: 50px;
+}
+
+.mf .rm {
+  margin-left: 50px;
+}
+
+.df .cb {
+  margin-top: 50px;
+  vertical-align: top;
+}
+
+.info ul {
+  font-family: Tahoma;
+}
+
+.infoCont {
+  background-color: #ffffff9d;
+  text-align: center;
+}
+
+.infoCont h3 {
+  text-align: left;
+  margin: 10px 10px;
+  color: rgb(19, 19, 97);
+}
+
+.infoCont .col,
+.col-7 {
+  background-color: #cccccc00;
+  border-radius: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.infoCont ul {
+  list-style: none;
+  text-align: left;
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.infoCont li img {
+  width: 25px;
+  margin-left: 5px;
+}
+
+.infoCont .col {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.infoCont .career {
+  line-height: 20px;
+}
+
+.infoCont span {
+  font-size: 10px;
+}
+
+.infoPic img {
+  width: 500px;
+  margin: -300px -130px;
+}
+
+.infoPic img:hover {
+  margin: -280px -140px;
+  transition-duration: 1s;
+}
+
+.infoPic span {
+  margin-left: 100px;
+  font-size: 450px;
+  font-weight: 100;
+  line-height: 300px;
+  color: rgba(0, 0, 0, 0.192);
+}
+
+.uniforms {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.uniforms .card {
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0px 0px 0 px 0px black;
+  border: none;
+}
+
+.uniforms a {
+  background-color: rgb(19, 19, 97);
+  border-color: rgb(16, 16, 86);
+}
+
+.uniforms a:hover {
+  background-color: rgb(37, 37, 182);
+}
+
+.matches::before {
+  display: block;
+  content: 'Richarlison';
+  font-size: 100px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin: -200px 0 50px 50px;
+  color: rgba(16, 16, 86, 0.743);
+}
+
+.matches h1 {
+  margin: 10px 10px;
+  color: rgb(19, 19, 97);
+}
+
+.matches .result {
+  font-family: 'Francois One', sans-serif;
+  padding: 20px 0;
+  width: 600px;
+  text-align: center;
+}
+.matches .result:hover {
+  background-color: #dadada91;
+}
+
+.matches .result div {
+  display: inline-block;
+  width: 200px;
+}
+
+.matches .result .home {
+  text-align: right;
+}
+
+.matches .result .away {
+  text-align: left;
+}
+
+.matches .result img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.matches .result span {
+  display: inline-block;
+  background-color: #9e9c9c;
+  color: white;
+  padding: 0px 5px;
+  width: 45px;
+  border-radius: 2px;
+}
+
+.matches .brentford span,
+.matches .burnley span {
+  background-color: #028419;
+}
+
+.matches .mancity span {
+  background-color: #cd1010;
+}
+
+.matches .result h5 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.matches .result h6 {
+  float: left;
+  width: 85px;
+  text-align: left;
+  padding-left: 5px;
+}
