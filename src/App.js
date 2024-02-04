@@ -58,7 +58,7 @@ function App() {
                   <div class="col">
                     <ul>
                       <li>26</li>
-                      <li>Brazil<img src="http://localhost:3000/images/brazil.png" /></li>
+                      <li>Brazil<img src={process.env.PUBLIC_URL + 'images/brazil.png'}/></li>
                       <li>183cm</li>
                       <li>Striker</li>
                       <li>Right</li>
@@ -75,7 +75,7 @@ function App() {
               </div>
               <div class="col-6 infoPic">
                 <span>9</span>
-                <img src="http://localhost:3000/images/히샬리송1.webp" alt=""></img>
+                <img src={process.env.PUBLIC_URL + 'images/히샬리송1.webp'} alt=""></img>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
         <div class="row">
           <div class="col uniforms">
             <div class="card" style={{ width: '18rem' }}>
-              <img src="http://localhost:3000/images/home-kit.jpg" class="card-img-top" alt="..." />
+              <img src={process.env.PUBLIC_URL + 'images/home-kit.jpg'} class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Mens Elite Tottenham Hotspur Home Shirt 2023/24</h5>
                 <p class="card-text">₩187,500</p>
@@ -91,7 +91,7 @@ function App() {
               </div>
             </div>
             <div class="card" style={{ width: '18rem' }}>
-              <img src="http://localhost:3000/images/away-kit.jpg" class="card-img-top" alt="..." />
+              <img src={process.env.PUBLIC_URL + 'images/away-kit.jpg'} class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Mens Elite Tottenham Hotspur Away Shirt 2023/24</h5>
                 <p class="card-text">₩187,500</p>
@@ -104,51 +104,51 @@ function App() {
             <div class="result everton">
               <h6>Sat, Feb 3</h6>
               <div class="home">
-                <h5>Everton</h5><img src="http://localhost:3000/images/everton.webp" />
+                <h5>Everton</h5><img src={process.env.PUBLIC_URL + 'images/everton.webp'} />
               </div>
               <span>2 - 2</span>
               <div class="away">
-                <img src="http://localhost:3000/images/tottenham.png" /><h5>Tottenham</h5>
+                <img src={process.env.PUBLIC_URL + 'images/tottenham.png'} /><h5>Tottenham</h5>
               </div>
             </div>
             <div class="result brentford">
               <h6>Thu, Feb 1</h6>
               <div class="home">
-                <h5>Tottenham</h5><img src="http://localhost:3000/images/tottenham.png" />
+                <h5>Tottenham</h5><img src={process.env.PUBLIC_URL + 'images/tottenham.png'} />
               </div>
               <span>3 - 2</span>
               <div class="away">
-                <img src="http://localhost:3000/images/brentford.webp" /><h5>Brentford</h5>
+                <img src={process.env.PUBLIC_URL + 'images/brentford.webp'} /><h5>Brentford</h5>
               </div>
             </div>
             <div class="result mancity">
               <h6>Sat, Jan 27</h6>
               <div class="home">
-                <h5>Tottenham</h5><img src="http://localhost:3000/images/tottenham.png" />
+                <h5>Tottenham</h5><img src={process.env.PUBLIC_URL + 'images/tottenham.png'} />
               </div>
               <span>0 - 1</span>
               <div class="away">
-                <img src="http://localhost:3000/images/mancity.webp" /><h5>Man City</h5>
+                <img src={process.env.PUBLIC_URL + 'images/mancity.webp'} /><h5>Man City</h5>
               </div>
             </div>
             <div class="result manunited">
               <h6>Mon, Jan 15</h6>
               <div class="home">
-                <h5>Man United</h5><img src="http://localhost:3000/images/manunited.png" />
+                <h5>Man United</h5><img src={process.env.PUBLIC_URL + 'images/manunited.png'} />
               </div>
               <span>2 - 2</span>
               <div class="away">
-                <img src="http://localhost:3000/images/tottenham.png" /><h5>Tottenham</h5>
+                <img src={process.env.PUBLIC_URL + 'images/tottenham.png'} /><h5>Tottenham</h5>
               </div>
             </div>
             <div class="result burnley">
               <h6>Sat, Jan 6</h6>
               <div class="home">
-                <h5>Tottenham</h5><img src="http://localhost:3000/images/tottenham.png" />
+                <h5>Tottenham</h5><img src={process.env.PUBLIC_URL + 'images/tottenham.png'} />
               </div>
               <span>1 - 0</span>
               <div class="away">
-                <img src="http://localhost:3000/images/burnley.png" /><h5>Burnley</h5>
+                <img src={process.env.PUBLIC_URL + 'images/burnley.png'} /><h5>Burnley</h5>
               </div>
             </div>
           </div>

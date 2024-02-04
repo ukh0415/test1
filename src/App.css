@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  background-image: url("http://localhost:3000/images/BG.jpg");
+  background-image: url("../public/images/BG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -58,7 +58,7 @@ body {
 }
 
 .pitch {
-  background-image: url("http://localhost:3000/images/pitch.png");
+  background-image: url("../public/images/pitch.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -94,7 +94,7 @@ body {
 }
 
 .fw .st:hover {
-  background-image: url("http://localhost:3000/images/히샬리송.png");
+  background-image: url("../public/images/히샬리송.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
@@ -105,35 +105,35 @@ body {
 }
 
 .mf .lm:hover {
-  background-image: url("http://localhost:3000/images/손흥민.png");
+  background-image: url("../public/images/손흥민.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .mf .cam:hover {
-  background-image: url("http://localhost:3000/images/매디슨.png");
+  background-image: url("../public/images/매디슨.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .mf .rm:hover {
-  background-image: url("http://localhost:3000/images/쿨루셉스키.png");
+  background-image: url("../public/images/쿨루셉스키.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .mf .left:hover {
-  background-image: url("http://localhost:3000/images/비수마.png");
+  background-image: url("../public/images/비수마.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .mf .right:hover {
-  background-image: url("http://localhost:3000/images/벤탕쿠르.png");
+  background-image: url("../public/images/벤탕쿠르.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
@@ -144,28 +144,28 @@ body {
 }
 
 .df .lb:hover {
-  background-image: url("http://localhost:3000/images/우도기.png");
+  background-image: url("../public/images/우도기.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .df .left:hover {
-  background-image: url("http://localhost:3000/images/반더벤.png");
+  background-image: url("../public/images/반더벤.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .df .right:hover {
-  background-image: url("http://localhost:3000/images/로메로.png");
+  background-image: url("../public/images/로메로.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
 }
 
 .df .rb:hover {
-  background-image: url("http://localhost:3000/images/포로.png");
+  background-image: url("../public/images/포로.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
@@ -176,7 +176,7 @@ body {
 }
 
 .gk .profile:hover {
-  background-image: url("http://localhost:3000/images/비카리오.png");
+  background-image: url("../public/images/비카리오.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0);
   transition-duration: 0.2s;
